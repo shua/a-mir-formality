@@ -361,7 +361,7 @@ pub enum WhereClauseData {
     #[grammar($v0 => $v1)]
     AliasEq(AliasTy, Ty),
 
-    #[grammar($v0 : $v1)]
+    #[grammar($v0 lt: $v1)]
     Outlives(Parameter, Lt),
 
     #[grammar(for $v0)]
